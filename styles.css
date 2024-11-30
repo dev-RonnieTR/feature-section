@@ -160,7 +160,7 @@ img {
       "d"
       "e";
   }
-  .feature {
+  .feature:not(.feature-2) {
     flex-direction: column-reverse;
   }
 }
