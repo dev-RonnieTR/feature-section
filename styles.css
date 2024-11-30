@@ -81,7 +81,7 @@ main {
 }
 .feature {
   display: flex;
-  
+
   padding: var(--gap-1);
 
   background-color: var(--color-3);
@@ -96,13 +96,14 @@ main {
   flex-direction: row;
   justify-content: center;
 }
-
 /* FEATURE IMAGES */
-.feature-vertical__img, .feature-vertical__picture {
+.feature-vertical__img,
+.feature-vertical__picture {
   width: min(100%, 19rem);
   height: auto;
 }
-.feature-horizontal__img, .feature-horizontal__picture {
+.feature-horizontal__img,
+.feature-horizontal__picture {
   width: min(100%, 17.25rem);
   height: auto;
 }
@@ -129,3 +130,4 @@ img {
   font-weight: var(--font-weight-regular);
   color: var(--color-2);
 }
+
