@@ -10,8 +10,8 @@
     <title>Our Essential Features</title>
     <link rel="stylesheet" href="styles.css" />
 
-    <link rel="preload" href="resources/images/image_1.avif" as="image">
-    <link rel="preload" href="resources/images/image_1.webp" as="image">
+    <link rel="preload" href="resources/images/image_1.avif" as="image" />
+    <link rel="preload" href="resources/images/image_1.webp" as="image" />
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -77,6 +77,13 @@
               fetchpriority="high"
             />
           </picture>
+          <style>
+            .feature-vertical__img,
+            .feature-vertical__picture {
+              width: min(100%, 19rem);
+              height: auto;
+            }
+          </style>
         </div>
         <div class="feature feature-2 feature-vertical">
           <picture class="feature-vertical__picture">
