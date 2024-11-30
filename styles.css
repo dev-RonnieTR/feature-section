@@ -136,6 +136,12 @@ img {
   color: var(--color-2);
 }
 
+@media (min-width: 1025px) {
+    .feature-4 > .feature__text, .feature-5 > .feature__text {
+        width: 50%
+    }
+}
+
 @media (max-width: 1024px) and (min-width: 641px) {
   .features {
     grid-template-columns: repeat(2, 1fr);
