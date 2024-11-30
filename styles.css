@@ -156,6 +156,12 @@ img {
 }
 
 @media (max-width: 640px) {
+  :root {
+    --font-size-root: clamp(12px, 2.5vw, 16px);
+  }
+  main {
+    padding: clamp(1%, calc(10vw - var(--gap-2)), var(--gap-2));
+  }
   .features {
     grid-template-columns: 100%;
     grid-template-rows: repeat(5, auto);
