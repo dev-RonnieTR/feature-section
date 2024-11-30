@@ -22,6 +22,12 @@ html {
     font-size: var(--font-size-root);
 }
 
+
+/* MODULES */
+img {
+    display: block;
+}
+
 /* TYPOGRAPHY */
 .title {
     font-weight: var(--font-weight-bold);
