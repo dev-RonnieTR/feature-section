@@ -58,12 +58,12 @@ main {
 /* FEATURE SECTION LAYOUT */
 .features {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, minmax(auto, 19rem));
   grid-template-rows: auto auto;
   grid-template-areas:
     "a a   b b   c c"
     "d  d  d e  e  e";
-  gap: var(--gap-2);
+  gap: var(--gap-1);
 }
 .feature-1 {
   grid-area: a;
@@ -84,7 +84,7 @@ main {
   display: flex;
   align-items: center;
 
-  padding: var(--gap-1);
+  padding: var(--gap-2);
 
   background-color: var(--color-3);
   border-radius: var(--border-radius);
