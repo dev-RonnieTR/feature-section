@@ -131,3 +131,14 @@ img {
   color: var(--color-2);
 }
 
+@media (max-width: 1024px) and (min-width: 641px) {
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "a    b"
+      "c    c"
+      "d    d"
+      "e    e";
+  }
+}
