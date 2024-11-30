@@ -94,11 +94,21 @@ main {
 .feature-horizontal {
   flex-direction: row;
 }
+
+/* FEATURE IMAGES */
+.feature-vertical__img {
+    width: 19rem;
+    height: auto;
+}
+.feature-horizontal__img {
+    width: 17.25rem;
+    height: auto;
+}
+
 /* MODULES */
 picture,
 img {
   display: block;
-  width: 10rem; /* Temporary value. Change later*/
 }
 
 /* TYPOGRAPHY */
