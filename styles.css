@@ -45,6 +45,31 @@ html {
   margin-bottom: var(--gap-1);
 }
 
+/* FEATURE SECTION LAYOUT */
+.features {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+    "a a   b b   c c"
+    "d  d  d e  e  e";
+}
+.feature-1 {
+  grid-area: a;
+}
+.feature-2 {
+  grid-area: b;
+}
+.feature-3 {
+  grid-area: c;
+}
+.feature-4 {
+  grid-area: d;
+}
+.feature-5 {
+  grid-area: e;
+}
+
 /* MODULES */
 img {
   display: block;
