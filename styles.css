@@ -98,13 +98,13 @@ main {
 }
 
 /* FEATURE IMAGES */
-.feature-vertical__img {
-    width: min(100%, 19rem);
-    height: auto;
+.feature-vertical__img, .feature-vertical__picture {
+  width: min(100%, 19rem);
+  height: auto;
 }
-.feature-horizontal__img {
-    width: min(100%, 17.25rem);
-    height: auto;
+.feature-horizontal__img, .feature-horizontal__picture {
+  width: min(100%, 17.25rem);
+  height: auto;
 }
 
 /* MODULES */
