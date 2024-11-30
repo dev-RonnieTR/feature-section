@@ -69,7 +69,15 @@ html {
 .feature-5 {
   grid-area: e;
 }
-
+.feature {
+    display: flex;
+}
+.feature-vertical {
+    flex-direction: column;
+}
+.feature-horizontal {
+    flex-direction: row;
+}
 /* MODULES */
 img {
   display: block;
