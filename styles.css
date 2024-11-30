@@ -26,6 +26,7 @@ html {
 /* MODULES */
 img {
     display: block;
+    width: 10rem; /* Temporary value. Change later*/
 }
 
 /* TYPOGRAPHY */
