@@ -151,6 +151,7 @@ img {
   }
   .feature-4 {
     flex-direction: row-reverse;
+    gap: var(--gap-1);
   }
 }
 
