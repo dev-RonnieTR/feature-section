@@ -99,11 +99,11 @@ main {
 
 /* FEATURE IMAGES */
 .feature-vertical__img {
-    width: 19rem;
+    width: min(100%, 19rem);
     height: auto;
 }
 .feature-horizontal__img {
-    width: 17.25rem;
+    width: min(100%, 17.25rem);
     height: auto;
 }
 
