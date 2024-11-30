@@ -19,6 +19,7 @@
   --color-4: #f3f4f6;
   --gap-1: 1rem;
   --border-radius: 1rem;
+  --box-shadow: 1px 3px 1px 1px #c2c2c254;
 }
 
 html {
@@ -87,6 +88,7 @@ main {
 
   background-color: var(--color-3);
   border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
 }
 .feature-vertical {
   flex-direction: column;
