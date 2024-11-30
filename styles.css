@@ -53,6 +53,10 @@ html {
   grid-template-areas:
     "a a   b b   c c"
     "d  d  d e  e  e";
+
+    background-color: var(--color-4);
+    margin: 3%;
+    border-radius: 1rem;
 }
 .feature-1 {
   grid-area: a;
