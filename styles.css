@@ -157,7 +157,7 @@ img {
 
 @media (max-width: 640px) {
   :root {
-    --font-size-root: clamp(12px, 2.5vw, 16px);
+    --font-size-root: clamp(13px, 2.5vw, 16px);
   }
   main {
     padding: clamp(1%, calc(10vw - var(--gap-2)), var(--gap-2));
