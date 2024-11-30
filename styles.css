@@ -27,12 +27,17 @@ html {
   font-family: "Be Vietnam Pro", sans-serif;
   font-size: var(--font-size-root);
 }
+html,
+body {
+  max-width: 1920px;
+}
 
 main {
-  background-color: var(--color-4);
-  margin: 3%;
-  border-radius: var(--border-radius);
   padding: var(--gap-2);
+  margin: 3%;
+
+  background-color: var(--color-4);
+  border-radius: var(--border-radius);
 }
 
 /* HEADING LAYOUT */
@@ -137,9 +142,10 @@ img {
 }
 
 @media (min-width: 1025px) {
-    .feature-4 > .feature__text, .feature-5 > .feature__text {
-        width: 50%
-    }
+  .feature-4 > .feature__text,
+  .feature-5 > .feature__text {
+    width: 50%;
+  }
 }
 
 @media (max-width: 1024px) and (min-width: 641px) {
