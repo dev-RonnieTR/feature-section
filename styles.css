@@ -25,6 +25,13 @@ html {
   font-size: var(--font-size-root);
 }
 
+main {
+  background-color: var(--color-4);
+  margin: 3%;
+  border-radius: 1rem;
+  padding: var(--gap-1);
+}
+
 /* HEADING LAYOUT */
 .heading {
   margin: 2%;
@@ -53,10 +60,7 @@ html {
   grid-template-areas:
     "a a   b b   c c"
     "d  d  d e  e  e";
-
-  background-color: var(--color-4);
-  margin: 3%;
-  border-radius: 1rem;
+  gap: var(--gap-1);
 }
 .feature-1 {
   grid-area: a;
@@ -75,6 +79,11 @@ html {
 }
 .feature {
   display: flex;
+
+  padding: var(--gap-1);
+
+  background-color: var(--color-3);
+  border-radius: 1rem;
 }
 .feature-vertical {
   flex-direction: column;
