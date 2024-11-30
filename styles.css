@@ -15,11 +15,32 @@
     --color-2: #52525A;
     --color-3: #FFFFFF;
     --color-4: #F3F4F6;
+    --gap-1: 1rem;
 }
 
 html {
     font-family: "Be Vietnam Pro", sans-serif;
     font-size: var(--font-size-root);
+}
+
+/*HEADING LAYOUT*/
+.heading {
+    margin: 2%;
+}
+.heading__item {
+    margin: auto;
+}
+.heading__item:not(.heading__icon) {
+    width: min(100%, 34rem);
+}
+.heading__icon {
+    width: min(100%, 3rem);
+}
+.heading__item:not(.heading__icon) {
+    text-align: center;
+}
+.heading__title {
+    margin-bottom: var(--gap-1);
 }
 
 
