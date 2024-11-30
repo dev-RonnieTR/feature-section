@@ -161,6 +161,6 @@ img {
       "e";
   }
   .feature {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
