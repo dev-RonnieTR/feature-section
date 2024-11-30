@@ -54,9 +54,9 @@ html {
     "a a   b b   c c"
     "d  d  d e  e  e";
 
-    background-color: var(--color-4);
-    margin: 3%;
-    border-radius: 1rem;
+  background-color: var(--color-4);
+  margin: 3%;
+  border-radius: 1rem;
 }
 .feature-1 {
   grid-area: a;
@@ -74,16 +74,17 @@ html {
   grid-area: e;
 }
 .feature {
-    display: flex;
+  display: flex;
 }
 .feature-vertical {
-    flex-direction: column;
+  flex-direction: column;
 }
 .feature-horizontal {
-    flex-direction: row;
+  flex-direction: row;
 }
 /* MODULES */
-picture, img {
+picture,
+img {
   display: block;
   width: 10rem; /* Temporary value. Change later*/
 }
