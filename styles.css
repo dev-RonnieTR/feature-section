@@ -149,6 +149,9 @@ img {
   .feature-3 {
     flex-direction: row;
   }
+  .feature-4 {
+    flex-direction: row-reverse;
+  }
 }
 
 @media (max-width: 640px) {
