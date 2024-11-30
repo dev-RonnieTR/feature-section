@@ -147,3 +147,19 @@ img {
     flex-direction: row;
   }
 }
+
+@media (max-width: 640px) {
+  .features {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e";
+  }
+  .feature {
+    flex-direction: column;
+  }
+}
