@@ -81,6 +81,7 @@ main {
 }
 .feature {
   display: flex;
+  align-items: center;
 
   padding: var(--gap-1);
 
@@ -88,13 +89,14 @@ main {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
-.feature-vertical {
+.feature-1,
+.feature-2,
+.feature-3 {
   flex-direction: column;
-  align-items: center;
 }
-.feature-horizontal {
+.feature-4,
+.feature-5 {
   flex-direction: row;
-  justify-content: center;
 }
 /* FEATURE IMAGES */
 .feature-vertical__img,
@@ -140,5 +142,8 @@ img {
       "c    c"
       "d    d"
       "e    e";
+  }
+  .feature-3 {
+    flex-direction: row;
   }
 }
